@@ -16,7 +16,7 @@ int solution(int cacheSize, vector<string> cities) {
         bool flag = false;
         
         string city = "";
-        for(char c=0; c<cities[i].size(); c++)
+        for(int c=0; c<cities[i].size(); c++)
             city += tolower(cities[i][c]); //소문자로 변경
         
         if(i == 0){
