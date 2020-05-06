@@ -73,9 +73,7 @@ string solution(string m, vector<string> musicinfos) {
     }
 
     if(!v.empty()){
-        for(int i=0; i<v.size(); i++){
-            stable_sort(v.begin(), v.end(), comp);//정렬후 동일값의 원소 순서를 보장
-        }
+        stable_sort(v.begin(), v.end(), comp);//정렬후 동일값의 원소 순서를 보장
         answer = v[0].second;   
     }
     else answer = "(None)";
