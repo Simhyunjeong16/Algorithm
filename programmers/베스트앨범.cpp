@@ -1,9 +1,7 @@
 #include <string>
 #include <vector>
 #include <unordered_map>
-#include <unordered_map>
 #include <algorithm>
-#include <iostream>
 
 using namespace std;
 
@@ -38,8 +36,6 @@ vector<int> solution(vector<string> genres, vector<int> plays) {
         
         answer.push_back(m[0].first);
         if(m.size() >= 2) answer.push_back(m[1].first);
-        
-        m.clear();
     }
     
     return answer;
