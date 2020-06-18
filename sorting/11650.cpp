@@ -15,7 +15,7 @@ bool comp(pair<int, int> a, pair<int, int> b){
 
 int main(){
 
-    int n, x, y;;
+    int n, x, y;
     cin >> n;
     vector<pair<int, int>> v;
     
